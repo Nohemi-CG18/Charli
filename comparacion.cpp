@@ -3,16 +3,18 @@
 using namespace std;
 int main()
 {
-	float a,b;
-	cout<<"ingrese a b:"; cin>>a>>b;
-	if(a>b)
+	float XNCG_a,XNCG_b;
+	cout<<"ingrese XNCG_a XNCG_b:"; cin>>XNCG_a>>XNCG_b;
+	if(XNCG_a>XNCG_b)
 	{
-	cout<<a<<" es mayor a "<<b<<endl;
+	  cout<<XNCG_a<<" es mayor a "<<XNCG_b<<endl;
 
 
 	}else{
 
-	  cout<<b<<" es mayor a "<<a<<endl;
+	  cout<<XNCG_b<<" es mayor a "<<XNCG_a<<endl;
+
+
 	}
 
 	return 0;
