@@ -1,23 +1,23 @@
-//Creado por: Ximena Castillo Gonzales
+//Creado por: Ximena Nohemí Castillo Gonzales
 #include<iostream>
 using namespace std;
 int main()
 {
-	float x,y,s,m,d,r;
+	float XNCG_x,XNCG_y,XNCG_s,XNCG_m,XNCG_d,XNCG_r;
 	//Ingreso de datos
-	cout<<"Ingrese en valor de x=:";
-	cin>>x;
-	cout<<"Ingrese en valor de y=:";
+	cout<<"Ingrese en valor de XNCG_x=:";
+	cin>>XNCG_x;
+	cout<<"Ingrese en valor de XNCG_y=:";
 	//Operaciones 
-	cin>>y;
-	s=x+y;
-	m=x*y;
-	d=x/y;
-	r=x-y;
+	cin>>XNCG_y;
+	XNCG_s=XNCG_x+XNCG_y;
+	XNCG_m=XNCG_x*XNCG_y;
+	XNCG_d=XNCG_x/XNCG_y;
+	XNCG_r=XNCG_x-XNCG_y;
 	//Muestra los resutaldos.
-	cout<<"Las suma de "<<x<<" + "<<y<<" = "<<s<<endl;
-	cout<<"Las multiplicacion de "<<x<<" * "<<y<<" = "<<m<<endl;
-	cout<<"Las division de "<<x<<" / "<<y<<" = "<<d<<endl;
-	cout<<"Las resta de "<<x<<" - "<<y<<" = "<<r<<endl;
+	cout<<"Las suma de "<<XNCG_x<<" + "<<XNCG_y<<" = "<<XNCG_s<<endl;
+	cout<<"Las multiplicacion de "<<XNCG_x<<" * "<<XNCG_y<<" = "<<XNCG_m<<endl;
+	cout<<"Las division de "<<XNCG_x<<" / "<<XNCG_y<<" = "<<XNCG_d<<endl;
+	cout<<"Las resta de "<<XNCG_x<<" - "<<XNCG_y<<" = "<<XNCG_r<<endl;
 	return 0;
 }
